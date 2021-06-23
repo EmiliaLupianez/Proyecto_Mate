@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'telegrafico';
+    src: url(../assets/img/TELEGRAFICO.TTF)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+$fuentetitulo: 'telegrafico';
+$fuentetexto: 'Roboto Condensed', sans-serif;
+$negro: #000;
+$blanco: #fff;
+$gris: #6c757d;
+$tiza: #eee;
+
+header{ 
+    background-color: $tiza;   
+}
+.bg-light{
+    background-color: transparent !important;
+}
+
+.btn-outline-success{
+    color: $blanco;
+    background-color: $gris;
+    border-color: $gris;
+}
+.navbar-nav .nav-link{
+    color: $negro !important;
+    font-family: $fuentetexto;
+
+}
+h1 {
+    font-family: $fuentetitulo;
+    background-color: $negro ;
+    color: $blanco;
+    font-weight: bold;
+}
+p{
+    font-family:$fuentetexto;
+    color: $negro ;
+}
+
+
+//SECCION NOSOTROS INDEX//
+
+
+
+h3{
+    font-family: $fuentetexto;
+    color: $gris;
+}
+
+//PAGE NOSOTROS//
+.card-body{
+    .card-text{
+        font-family: $fuentetitulo;
+    }
+}
+
+
+
+//PAGE CONTACTO//
+.contacto{
+    background-color: $tiza;
+    
+
+}
+.btn-primary--contacto{
+    background-color: $gris;
+    border-color: $gris;
+    font-family:$fuentetexto ;
+    color: $blanco;
+
+} 
+
+.form-group{
+    font-family:$fuentetexto;
+    
+}
+
+/*PAGE SERVICIOS*/
+
+.btn-primary{
+    background-color: $gris;
+    border-color: $gris;
+    &:hover{
+        background-color: $negro;
+        border-color: $negro;
+    }
+    
+    
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: $tiza;
+    .footer__contacto{
+        font-family:$fuentetexto;
+        color: $negro;
+    }
+    
+   
+}
+h6{
+    font-family:$fuentetexto;
+    color: $negro;
+
+}

@@ -1,0 +1,211 @@
+$anchopagina: 99%;
+$fonttexto: 18px;
+$fonttitulo:30px;
+$fontparrafo:20px;
+$fonttextopequeno:15px;
+
+
+
+header{ 
+    display: flex
+    
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+nav{
+    margin-top: 60px;
+    margin-left: 15%;
+
+}
+.navbar-nav .nav-link{
+    font-size: $fonttexto;
+}
+
+h1 {
+    margin: auto;
+    width: 90%;
+    font-size: $fonttitulo;
+    text-align: center;
+    letter-spacing: 5px;        
+}
+p{
+    font-size: $fontparrafo;
+    margin: auto;
+    text-align: justify;
+    justify-content: center;
+    width: 92%;
+}
+//SECCION index MATE//
+.mate__titulo{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.mate{
+    
+    display: flex;
+    margin:auto;
+    margin-left: 40px;
+    margin-right: 20px;
+    .mate__parrafo{
+        display: flex;
+        text-align: justify;
+        justify-content: left;
+        align-items:stretch;
+        flex-direction: row;
+       
+    }
+    .mate__fotos{
+        display: flex;
+        justify-content: right;
+        margin-left: 15px;
+       
+    }  
+ 
+}
+
+//SECCION INDEX PROYECTOS//
+.proyectos__titulo{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+.carousel{
+    width: 98%;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    margin:auto;
+   
+}
+//SECCION INDEX NOSOTROS//
+.nosotros__titulo{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.nosotros__parrafo{
+    margin: auto;
+    
+}
+//PAGE PROYECTOS//
+.proyectos__parrafo{
+    margin-bottom: 15px;
+}
+.proyectos__carrousel{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;       
+}
+.foto{
+    margin: 15px;     
+}
+
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .70s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+
+//PAGE NOSOTROS//
+.nosotros__parrafo{
+    margin-bottom: 15px;
+}
+.cards-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    margin: 10px
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+
+
+h3{
+    font-size: $fontparrafo;
+    text-align: center;
+
+}
+/*PAGE SERVICIOS*/
+.titulo__servicios{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.cards__servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+//PAGE CONTACTO//
+.titulo__contacto{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.contacto{
+    padding: 35px;
+}
+form{
+    width: $anchopagina;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+}
+.btn-primary--contacto{
+    width: 15%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+} 
+
+.form-group{
+    width: 50%;
+    display: block;
+}
+
+
+//FOOTER//
+
+
+h6{
+    margin-top: 40px;
+    margin-left: 10%;
+    font-size: $fontparrafo;
+
+}
+.footer{
+    margin-top: 35px;
+    width: $anchopagina;
+    height: auto;
+    
+}
+.footer__logo{
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+.footer__contacto{
+    margin-top: 40px;
+    margin-left: 10%;
+    font-size: $fonttexto;
+}
+.footer--iconos{
+    margin-top: 25px;
+}
