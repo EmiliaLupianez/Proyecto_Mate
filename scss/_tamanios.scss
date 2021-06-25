@@ -5,7 +5,10 @@ $fontparrafo:20px;
 $fonttextopequeno:15px;
 
 
-
+.row{
+    padding: 0% !important;
+    margin: 0% !important;
+}
 header{ 
     display: flex
     
@@ -48,24 +51,47 @@ p{
 }
 .mate{
     
-    display: flex;
+    display: block;
     margin:auto;
-    margin-left: 40px;
-    margin-right: 20px;
-    .mate__parrafo{
+    max-width: 92%;
+    .mate__uno{
         display: flex;
-        text-align: justify;
-        justify-content: left;
-        align-items:stretch;
-        flex-direction: row;
-       
+        .mate__parrafo--uno{
+            display: flex;
+            text-align: justify;
+            align-items:stretch;
+            margin-right: 35px;
+
+        }
+    
+        .mate__foto--uno{
+            display: flex;
+            flex-direction: row;
+           
+        }  
+
     }
-    .mate__fotos{
+    .mate__dos{
         display: flex;
-        justify-content: right;
-        margin-left: 15px;
-       
-    }  
+        justify-content: center;
+        .mate__parrafo--dos{
+            display: flex;
+            text-align: justify;
+            align-items:stretch;
+            margin-left: 20px;
+    
+        }
+        .mate__foto--dos{
+            display: flex;
+
+            flex-direction: row;
+           
+        } 
+
+    }
+ 
+    
+    
  
 }
 
@@ -77,10 +103,7 @@ p{
 
 .carousel{
     width: 98%;
-    align-content: center;
-    justify-content: center;
-    height: auto;
-    margin:auto;
+    margin-left: 25px;
    
 }
 //SECCION INDEX NOSOTROS//
@@ -192,9 +215,7 @@ h6{
 }
 
 .footer{
-    margin-top: 35px;
-    width: $anchopagina;
-    height: auto;
+    margin-top: 35px
     
 }
 .footer__logo{
@@ -207,7 +228,9 @@ h6{
     display: inline;
     margin-top: 40px !important;
     font-size: $fonttexto;
+    
 }
 .footer--iconos{
+    display: inline;
     margin-top: 40px;
 }

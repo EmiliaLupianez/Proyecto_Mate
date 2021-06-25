@@ -110,33 +110,35 @@ h6 {
   }
 
   .mate {
-    margin: auto;
-    display: block;
-    margin-left: 0%;
-  }
-
-  .mate__parrafo {
-    margin: auto;
-    width: 95% !important;
-    display: block !important;
-    margin-left: 0% !important;
-  }
-
-  .mate__fotos {
-    display: block !important;
-    margin-top: 15px !important;
-    margin-left: 0% !important;
-  }
-
-  .fotos {
     display: block;
     margin: auto;
+    max-width: 92%;
+  }
+  .mate .mate__uno {
+    display: block !important;
+  }
+  .mate .mate__uno .mate__parrafo--uno {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: justify;
+    margin-right: 20px !important;
+  }
+  .mate .mate__uno .mate__foto--uno {
+    display: block !important;
+  }
+  .mate .mate__dos {
+    display: block !important;
+  }
+  .mate .mate__dos .mate__parrafo--dos {
     margin-top: 10px;
-    margin-bottom: 15px;
+  }
+  .mate img {
+    margin-left: 55px;
   }
 
   .carousel {
-    margin-left: 13px;
+    margin-left: 8px !important;
   }
 
   .foto {
@@ -251,7 +253,7 @@ h6 {
     display: flex !important;
     margin-top: 5px !important;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 25px;
   }
   .footer--iconos .iconos {
     margin: 5px;
@@ -265,8 +267,9 @@ h6 {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 990px) {
-  nav {
+  .navbar-toggler {
     margin-top: 0px !important;
+    margin-left: 300px !important;
     -webkit-box-align: end !important;
         -ms-flex-align: end !important;
             align-items: flex-end !important;
@@ -285,32 +288,6 @@ h6 {
 
   p {
     font-size: 18px !important;
-  }
-
-  .mate {
-    margin: auto;
-    display: block;
-    margin-left: 0%;
-  }
-
-  .mate__parrafo {
-    margin: auto;
-    width: 95% !important;
-    display: block !important;
-    margin-left: 0% !important;
-  }
-
-  .mate__fotos {
-    display: block !important;
-    margin-top: 15px !important;
-    margin-left: 0% !important;
-  }
-
-  .fotos {
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 15px;
   }
 
   .carousel {
@@ -442,6 +419,11 @@ h6 {
     margin-top: 15px !important;
   }
 }
+.row {
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -496,37 +478,60 @@ p {
 }
 
 .mate {
+  display: block;
+  margin: auto;
+  max-width: 92%;
+}
+.mate .mate__uno {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
-  margin-left: 40px;
-  margin-right: 20px;
 }
-.mate .mate__parrafo {
+.mate .mate__uno .mate__parrafo--uno {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: justify;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  margin-right: 35px;
+}
+.mate .mate__uno .mate__foto--uno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
-.mate .mate__fotos {
+.mate .mate__dos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  margin-left: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mate .mate__dos .mate__parrafo--dos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-left: 20px;
+}
+.mate .mate__dos .mate__foto--dos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .proyectos__titulo {
@@ -536,13 +541,7 @@ p {
 
 .carousel {
   width: 98%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: auto;
-  margin: auto;
+  margin-left: 25px;
 }
 
 .nosotros__titulo {
@@ -694,8 +693,6 @@ h6 {
 
 .footer {
   margin-top: 35px;
-  width: 99%;
-  height: auto;
 }
 
 .footer__logo {
@@ -712,5 +709,6 @@ h6 {
 }
 
 .footer--iconos {
+  display: inline;
   margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */

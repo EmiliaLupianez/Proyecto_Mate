@@ -26,36 +26,36 @@ $fuenteTtablet:20px;
         font-size: $fuentePmobile !important;
         
     }
-    //SECCION MATE INDEX//
-    .mate{ 
-        margin:auto;
-        display: block; 
-        margin-left: 0%;   
-        
-    } 
-    .mate__parrafo{
-            
-        margin: auto;
-        width: 95% !important;
-        display: block !important;  
-        margin-left: 0% !important;     
+    .mate{
     
-    }  
-    .mate__fotos{
-        display: block !important;
-        margin-top:15px !important;
-        margin-left: 0% !important;
-    }
-    .fotos{
         display: block;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 15px;
-       }  
+        margin:auto;
+        max-width: 92%;
+        .mate__uno{
+            display: block !important;
+            .mate__parrafo--uno{
+                display: flex;
+                text-align: justify;
+                margin-right: 20px !important;
+            }
+            .mate__foto--uno{
+                display: block !important;
+            }
+        }
+        .mate__dos{
+            display: block !important;           
+            .mate__parrafo--dos{
+                margin-top: 10px;
+            } 
+        }
+        img{
+            margin-left: 55px;
+        }        
+    }
     
     //SECCION PROYECTOS INDEX//
     .carousel{
-        margin-left: 13px;
+        margin-left: 8px !important;
     }
     
     //PAGE PROYECTOS//
@@ -156,7 +156,7 @@ $fuenteTtablet:20px;
         display: flex !important;
         margin-top: 5px !important;
         margin-bottom: 20px;
-        margin-left: 15px;
+        margin-left: 25px;
         .iconos{
             margin:5px;
         }
@@ -171,8 +171,9 @@ $fuenteTtablet:20px;
 
 
 @media screen and (min-width: 769px) and (max-width: 990px) {
-    nav{
+    .navbar-toggler{
         margin-top: 0px !important;
+        margin-left: 300px !important;
        align-items: flex-end !important;
 
      }
@@ -191,33 +192,6 @@ $fuenteTtablet:20px;
         font-size: $fuentePtablet !important;
         
     }
-    //SECCION MATE INDEX//
-    .mate{ 
-        margin:auto;
-        display: block; 
-        margin-left: 0%;   
-        
-    } 
-    .mate__parrafo{
-            
-        margin: auto;
-        width: 95% !important;
-        display: block !important;  
-        margin-left: 0% !important;     
-    
-    }  
-    .mate__fotos{
-        display: block !important;
-        margin-top:15px !important;
-        margin-left: 0% !important;
-    }
-    .fotos{
-        display: block;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 15px;
-       }  
-    
      //SECCION PROYECTOS//
     .carousel{
       margin-left: 11px;
