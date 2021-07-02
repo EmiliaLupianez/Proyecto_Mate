@@ -27,7 +27,7 @@ nav{
 
 }
 .navbar-nav .nav-link{
-    font-size: $fonttexto;
+    font-size: $fontparrafo;
 }
 
 h1 {
@@ -207,11 +207,9 @@ form{
 //FOOTER//
 
 
-h6{
-    margin-top: 40px;
-    margin-left: 10%;
-    font-size: $fontparrafo;
 
+h6{
+    text-align: center;
 }
 
 .footer{
@@ -224,13 +222,26 @@ h6{
     margin-bottom: 35px;
     display: inline;
 }
+h5{
+    display: block;
+    font-size: $fonttexto;
+    text-align: center;
+    margin-top: 25px
+}
 .footer__contacto{
     display: inline;
-    margin-top: 40px !important;
     font-size: $fonttexto;
+    
+    .contacto{
+        margin: 10px;
+        text-align: center;
+        padding: 0px !important;
+    }
     
 }
 .footer--iconos{
     display: inline;
-    margin-top: 40px;
+   text-align: center;
+   margin-left: 165px;
+
 }

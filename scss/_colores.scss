@@ -41,16 +41,6 @@ p{
     color: $negro ;
 }
 
-
-//SECCION NOSOTROS INDEX//
-
-
-
-h3{
-    font-family: $fuentetexto;
-    color: $gris;
-}
-
 //PAGE NOSOTROS//
 .card-body{
     .card-text{
@@ -103,8 +93,8 @@ h3{
     
    
 }
-h6{
+h5{
     font-family:$fuentetexto;
-    color: $negro;
+    text-decoration: underline;
 
 }

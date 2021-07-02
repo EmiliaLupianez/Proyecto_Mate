@@ -132,11 +132,7 @@ $fuenteTtablet:20px;
     }
     //FOOTER//
     .footer{
-        margin-top: 35px;
-        width: 100%;
-        background-color: #eee;
-        height: auto;
-        
+        margin-top: 35px;        
     }  
     .footer__logo{
         display: block;
@@ -147,24 +143,28 @@ $fuenteTtablet:20px;
     }
     .footer__contacto{
         display: block;
-        margin-top: 15px !important;
-        margin-left: 20px !important;
+        margin-top: 0px !important;
+        text-align: left;
         font-size: 17px !important;
+        .contacto{
+            text-align: left !important;
+        }
         
     }
     .footer--iconos{
         display: flex !important;
         margin-top: 5px !important;
         margin-bottom: 20px;
-        margin-left: 25px;
+        margin-left: 10px !important;
         .iconos{
             margin:5px;
         }
     }  
-    h6{
+    h5{
         display:block;
         margin-bottom: 10px !important;
-        margin-left: 30px !important;
+        text-align: left !important;
+        margin-left: 25px;
         margin-top: 15px !important;
     }
 }
@@ -271,11 +271,7 @@ $fuenteTtablet:20px;
     }
     //FOOTER//
     .footer{
-        margin-top: 35px;
-        width: 100%;
-        background-color: #eee;
-        height: auto;
-        
+        margin-top: 35px;        
     }  
     .footer__logo{
         display: block;
@@ -286,24 +282,28 @@ $fuenteTtablet:20px;
     }
     .footer__contacto{
         display: block;
-        margin-top: 15px !important;
-        margin-left: 20px !important;
+        margin-top: 0px !important;
+        text-align: left;
         font-size: 17px !important;
+        .contacto{
+            text-align: left !important;
+        }
         
     }
     .footer--iconos{
         display: flex !important;
         margin-top: 5px !important;
         margin-bottom: 20px;
-        margin-left: 15px;
+        margin-left: 10px !important;
         .iconos{
             margin:5px;
         }
     }  
-    h6{
+    h5{
         display:block;
         margin-bottom: 10px !important;
-        margin-left: 30px !important;
+        text-align: left !important;
+        margin-left: 25px;
         margin-top: 15px !important;
     }
 }

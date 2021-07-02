@@ -34,11 +34,6 @@ p {
   color: #000;
 }
 
-h3 {
-  font-family: "Roboto Condensed", sans-serif;
-  color: #6c757d;
-}
-
 .card-body .card-text {
   font-family: "telegrafico";
 }
@@ -77,9 +72,9 @@ h3 {
   color: #000;
 }
 
-h6 {
+h5 {
   font-family: "Roboto Condensed", sans-serif;
-  color: #000;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
@@ -228,9 +223,6 @@ h6 {
 
   .footer {
     margin-top: 35px;
-    width: 100%;
-    background-color: #eee;
-    height: auto;
   }
 
   .footer__logo {
@@ -242,9 +234,12 @@ h6 {
 
   .footer__contacto {
     display: block;
-    margin-top: 15px !important;
-    margin-left: 20px !important;
+    margin-top: 0px !important;
+    text-align: left;
     font-size: 17px !important;
+  }
+  .footer__contacto .contacto {
+    text-align: left !important;
   }
 
   .footer--iconos {
@@ -253,16 +248,17 @@ h6 {
     display: flex !important;
     margin-top: 5px !important;
     margin-bottom: 20px;
-    margin-left: 25px;
+    margin-left: 10px !important;
   }
   .footer--iconos .iconos {
     margin: 5px;
   }
 
-  h6 {
+  h5 {
     display: block;
     margin-bottom: 10px !important;
-    margin-left: 30px !important;
+    text-align: left !important;
+    margin-left: 25px;
     margin-top: 15px !important;
   }
 }
@@ -381,9 +377,6 @@ h6 {
 
   .footer {
     margin-top: 35px;
-    width: 100%;
-    background-color: #eee;
-    height: auto;
   }
 
   .footer__logo {
@@ -395,9 +388,12 @@ h6 {
 
   .footer__contacto {
     display: block;
-    margin-top: 15px !important;
-    margin-left: 20px !important;
+    margin-top: 0px !important;
+    text-align: left;
     font-size: 17px !important;
+  }
+  .footer__contacto .contacto {
+    text-align: left !important;
   }
 
   .footer--iconos {
@@ -406,16 +402,17 @@ h6 {
     display: flex !important;
     margin-top: 5px !important;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 10px !important;
   }
   .footer--iconos .iconos {
     margin: 5px;
   }
 
-  h6 {
+  h5 {
     display: block;
     margin-bottom: 10px !important;
-    margin-left: 30px !important;
+    text-align: left !important;
+    margin-left: 25px;
     margin-top: 15px !important;
   }
 }
@@ -451,7 +448,7 @@ nav {
 }
 
 .navbar-nav .nav-link {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h1 {
@@ -686,9 +683,7 @@ form {
 }
 
 h6 {
-  margin-top: 40px;
-  margin-left: 10%;
-  font-size: 20px;
+  text-align: center;
 }
 
 .footer {
@@ -702,13 +697,25 @@ h6 {
   display: inline;
 }
 
+h5 {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+}
+
 .footer__contacto {
   display: inline;
-  margin-top: 40px !important;
   font-size: 18px;
+}
+.footer__contacto .contacto {
+  margin: 10px;
+  text-align: center;
+  padding: 0px !important;
 }
 
 .footer--iconos {
   display: inline;
-  margin-top: 40px;
+  text-align: center;
+  margin-left: 165px;
 }/*# sourceMappingURL=main.css.map */
