@@ -1,6 +1,6 @@
 $anchopagina: 99%;
 $fonttexto: 18px;
-$fonttitulo:30px;
+$fonttitulo:35px;
 $fontparrafo:20px;
 $fonttextopequeno:15px;
 
@@ -29,13 +29,18 @@ nav{
 .navbar-nav .nav-link{
     font-size: $fontparrafo;
 }
+div{
+    margin: 0%;
+    padding: 0%;
+}
 
 h1 {
     margin: auto;
     width: 90%;
     font-size: $fonttitulo;
     text-align: center;
-    letter-spacing: 5px;        
+    letter-spacing: 5px; 
+    margin-top: 35px;       
 }
 p{
     font-size: $fontparrafo;
@@ -45,55 +50,26 @@ p{
     width: 92%;
 }
 //SECCION index MATE//
-.mate__titulo{
-    margin-top: 55px;
-    margin-bottom: 35px;
-}
 .mate{
     
-    display: block;
-    margin:auto;
-    max-width: 92%;
-    .mate__uno{
-        display: flex;
-        .mate__parrafo--uno{
-            display: flex;
-            text-align: justify;
-            align-items:stretch;
-            margin-right: 35px;
-
-        }
+    display: flex;
     
-        .mate__foto--uno{
-            display: flex;
-            flex-direction: row;
-           
-        }  
-
-    }
-    .mate__dos{
+    .mate__parrafo{
         display: flex;
         justify-content: center;
-        .mate__parrafo--dos{
-            display: flex;
-            text-align: justify;
-            align-items:stretch;
-            margin-left: 20px;
-    
-        }
-        .mate__foto--dos{
-            display: flex;
-
-            flex-direction: row;
-           
-        } 
-
+        align-items: flex-start;
+        flex-direction: row;
+        margin-top: 35px;  
     }
- 
-    
-    
- 
+    .foto__uno{
+        margin-top: 40px;
+    }
+    .foto__dos{
+        margin-top: 40px;
+    }
+
 }
+
 
 //SECCION INDEX PROYECTOS//
 .proyectos__titulo{
@@ -106,24 +82,21 @@ p{
     margin-left: 25px;
    
 }
-//SECCION INDEX NOSOTROS//
-.nosotros__titulo{
-    margin-top: 55px;
-    margin-bottom: 35px;
-}
-.nosotros__parrafo{
-    margin: auto;
-    
-}
+
 //PAGE PROYECTOS//
-.proyectos__parrafo{
-    margin-bottom: 15px;
-}
+
 .proyectos__carrousel{
     display: flex;
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;       
+}
+.proyectos__parrafo{
+    margin-top: 40px;
+    width: 80%;
+    text-align: center;
+    letter-spacing: 1px; 
+    font-size: 35px !important; 
 }
 .foto{
     margin: 15px;     
@@ -138,6 +111,17 @@ p{
 }
 
 //PAGE NOSOTROS//
+.nosotros__titulo{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.nosotros__parrafo{
+    margin: auto;
+    
+}
+.proyectos__parrafo{
+    margin-bottom: 15px;
+}
 .nosotros__parrafo{
     margin-bottom: 15px;
 }
@@ -170,8 +154,7 @@ h3{
 .cards__servicios{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 //PAGE CONTACTO//
 .titulo__contacto{

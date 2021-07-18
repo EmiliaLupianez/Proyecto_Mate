@@ -4,10 +4,12 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 $fuentetitulo: 'telegrafico';
 $fuentetexto: 'Roboto Condensed', sans-serif;
+$fuentetextosespeciales: 'Bebas Neue', cursive;
 $negro: #000;
 $blanco: #fff;
 $gris: #6c757d;
@@ -40,6 +42,10 @@ p{
     font-family:$fuentetexto;
     color: $negro ;
 }
+
+
+
+
 
 //PAGE NOSOTROS//
 .card-body{
@@ -81,6 +87,17 @@ p{
     
     
 }
+.card-title{
+    text-decoration: none;
+    font-family: $fuentetitulo;
+    text-align: justify;
+}
+//PAGE PROYECTOS//
+.proyectos__parrafo{
+    color: #6c757d; 
+    font-family: 'telegrafico';
+    font-weight: bold;
+}
 
 /*FOOTER*/
 
@@ -93,8 +110,4 @@ p{
     
    
 }
-h5{
-    font-family:$fuentetexto;
-    text-decoration: underline;
 
-}

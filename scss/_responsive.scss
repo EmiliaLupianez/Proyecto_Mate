@@ -26,32 +26,15 @@ $fuenteTtablet:20px;
         font-size: $fuentePmobile !important;
         
     }
+    //index mate//
     .mate{
-    
-        display: block;
-        margin:auto;
-        max-width: 92%;
-        .mate__uno{
-            display: block !important;
-            .mate__parrafo--uno{
-                display: flex;
-                text-align: justify;
-                margin-right: 20px !important;
-            }
-            .mate__foto--uno{
-                display: block !important;
-            }
+        display: block !important;
+        .img{
+            display: block;
+            margin: auto;
         }
-        .mate__dos{
-            display: block !important;           
-            .mate__parrafo--dos{
-                margin-top: 10px;
-            } 
-        }
-        img{
-            margin-left: 55px;
-        }        
     }
+    
     
     //SECCION PROYECTOS INDEX//
     .carousel{
@@ -112,6 +95,7 @@ $fuenteTtablet:20px;
             align-items: stretch;
             justify-content: center;
             align-content: center;
+            
         }
         .btn-primary--contacto{
             background-color: #6c757d;
