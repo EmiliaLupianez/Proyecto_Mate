@@ -76,7 +76,7 @@ p{
 
 .carousel{
     width: 98%;
-    margin-left: 15px ;
+    margin-left: 15px !important ;
    
 }
 
@@ -196,9 +196,9 @@ h6{
     
 }
 .footer__logo{
-    margin-top: 35px;
-    margin-left: 35px;
-    margin-bottom: 35px;
+    margin-top: 35px !important;
+    margin-left: 35px !important;
+    margin-bottom: 35px !important;
     display: inline;
 }
 h5{
