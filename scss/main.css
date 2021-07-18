@@ -122,7 +122,7 @@ p {
   }
 
   .carousel {
-    margin-left: 8px !important;
+    margin-left: 5px !important;
   }
 
   .foto {
@@ -508,7 +508,7 @@ p {
 
 .carousel {
   width: 98%;
-  margin-left: 15px !important;
+  margin-left: 15px;
 }
 
 .proyectos__carrousel {
