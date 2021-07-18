@@ -440,9 +440,9 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 55px !important;
-  margin-left: 50px !important;
-  margin-bottom: 35px !important;
+  margin-top: 55px;
+  margin-left: 50px;
+  margin-bottom: 35px;
 }
 
 nav {
@@ -452,11 +452,6 @@ nav {
 
 .navbar-nav .nav-link {
   font-size: 20px;
-}
-
-div {
-  margin: 0% !important;
-  padding: 0% !important;
 }
 
 h1 {
@@ -500,10 +495,10 @@ p {
   margin-top: 35px;
 }
 .mate .foto__uno {
-  margin-top: 40px !important;
+  margin-top: 40px;
 }
 .mate .foto__dos {
-  margin-top: 40px !important;
+  margin-top: 40px;
 }
 
 .proyectos__titulo {
@@ -513,7 +508,7 @@ p {
 
 .carousel {
   width: 98%;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .proyectos__carrousel {
@@ -532,7 +527,6 @@ p {
 
 .proyectos__parrafo {
   margin-top: 40px;
-  width: 70%;
   text-align: center;
   letter-spacing: 1px;
   font-size: 35px !important;
@@ -583,7 +577,7 @@ p {
 }
 
 .card {
-  margin: 10px !important;
+  margin: 10px;
 }
 
 .card-title {
