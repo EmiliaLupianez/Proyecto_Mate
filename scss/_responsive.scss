@@ -4,8 +4,9 @@ $fuentePtablet:18px;
 $fuenteTtablet:20px;
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
-    body{
-        width: auto;
+    .row{
+    padding: 0% !important;
+    margin: 0% !important;
     }
     nav{
         margin-top: 0px !important;
@@ -34,8 +35,6 @@ $fuenteTtablet:20px;
             margin: auto;
         }
     }
-    
-    
     //SECCION PROYECTOS INDEX//
     .carousel{
         margin-left: 8px !important;
@@ -176,6 +175,21 @@ $fuenteTtablet:20px;
         font-size: $fuentePtablet !important;
         
     }
+    //INDEX MATE//
+    .mate{
+        display: block !important;
+        .foto__uno{
+            display: block;
+        }
+        .foto__dos{
+            display: block;
+        }
+        .img{
+            display: block;
+            margin: auto;
+        }
+    }
+    
      //SECCION PROYECTOS//
     .carousel{
       margin-left: 11px;

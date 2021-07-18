@@ -86,8 +86,9 @@ p {
 }
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
-  body {
-    width: auto;
+  .row {
+    padding: 0% !important;
+    margin: 0% !important;
   }
 
   nav {
@@ -274,6 +275,20 @@ p {
     font-size: 18px !important;
   }
 
+  .mate {
+    display: block !important;
+  }
+  .mate .foto__uno {
+    display: block;
+  }
+  .mate .foto__dos {
+    display: block;
+  }
+  .mate .img {
+    display: block;
+    margin: auto;
+  }
+
   .carousel {
     margin-left: 11px;
   }
@@ -425,9 +440,9 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 200px;
+  margin-top: 55px !important;
+  margin-left: 50px !important;
+  margin-bottom: 35px !important;
 }
 
 nav {
@@ -440,8 +455,8 @@ nav {
 }
 
 div {
-  margin: 0%;
-  padding: 0%;
+  margin: 0% !important;
+  padding: 0% !important;
 }
 
 h1 {
@@ -485,10 +500,10 @@ p {
   margin-top: 35px;
 }
 .mate .foto__uno {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 .mate .foto__dos {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 .proyectos__titulo {
@@ -517,7 +532,7 @@ p {
 
 .proyectos__parrafo {
   margin-top: 40px;
-  width: 80%;
+  width: 70%;
   text-align: center;
   letter-spacing: 1px;
   font-size: 35px !important;
@@ -568,7 +583,7 @@ p {
 }
 
 .card {
-  margin: 10px;
+  margin: 10px !important;
 }
 
 .card-title {

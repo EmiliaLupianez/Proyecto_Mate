@@ -17,9 +17,9 @@ header{
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 200px;
+    margin-top: 55px !important;
+    margin-left: 50px !important;
+    margin-bottom: 35px !important;
 }
 nav{
     margin-top: 60px;
@@ -30,8 +30,8 @@ nav{
     font-size: $fontparrafo;
 }
 div{
-    margin: 0%;
-    padding: 0%;
+    margin: 0% !important;
+    padding: 0% !important;
 }
 
 h1 {
@@ -62,10 +62,10 @@ p{
         margin-top: 35px;  
     }
     .foto__uno{
-        margin-top: 40px;
+        margin-top: 40px !important;
     }
     .foto__dos{
-        margin-top: 40px;
+        margin-top: 40px !important;
     }
 
 }
@@ -93,7 +93,7 @@ p{
 }
 .proyectos__parrafo{
     margin-top: 40px;
-    width: 80%;
+    width: 70%;
     text-align: center;
     letter-spacing: 1px; 
     font-size: 35px !important; 
@@ -131,7 +131,7 @@ p{
     justify-content: center;
 }
 .card{
-    margin: 10px
+    margin: 10px !important;
 }
 .card-title{
     text-align: center;
